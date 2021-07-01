@@ -9,7 +9,7 @@ import javax.persistence.*;
 
 @Entity
 public class Delivery {
-
+    
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long deliveryId;
     private Long orderId;

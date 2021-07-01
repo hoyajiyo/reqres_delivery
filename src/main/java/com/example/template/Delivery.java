@@ -20,7 +20,7 @@ public class Delivery {
     private String customerName;
     private String deliveryAddress;
     private String deliveryState;
-
+      
     @PrePersist
     private void deliveryCheck(){
         if( "".equals(this.deliveryState) || this.deliveryState == null ){
